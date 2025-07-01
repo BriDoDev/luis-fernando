@@ -7,7 +7,7 @@ import Sectionhead from "@components/sectionhead.astro";
 import Layout from "@layouts/Layout.astro";
 import i18next, { changeLanguage } from "i18next";
 
-changeLanguage("es");
+changeLanguage("en");
 
 export async function getStaticPaths({ paginate }) {
     var posts = await getCollection("blog", ({ data }) => {

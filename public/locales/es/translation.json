@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "title": "¡Excelencia en ingeniería y soldadura industrial!",
+    "subtitle": "SIMEEX: Soluciones integrales en metal-mecánica, estructuras metálicas e inspección de soldaduras con altos estándares de calidad.",
+    "globe_title": "Proyectos industriales seguros, precisos y duraderos con ingeniería especializada",
+    "main_button_text": "Ver servicios en GitHub",
+    "secondary_button_text": "Ir a la versión animada"
+  },
+  "hero_animated": {
+    "secondary_button_text": "Ir a la versión base"
+  },
+  "header": {
+    "features": "Servicios",
+    "pricing": "Cotización",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "primary_button_text": "Solicitar servicio",
+    "secondary_button_text": "Iniciar sesión"
+  },
+  "features": {
+    "learn_more": "Ver más",
+    "title": "Servicios",
+    "subtitle": "Todo lo que tu proyecto necesita",
+    "description": "En SIMEEX ofrecemos soluciones especializadas en el sector metal-mecánico: desde ingeniería hasta soldadura e inspección, garantizando precisión y calidad en cada proyecto.",
+    "astro": "Ingeniería industrial aplicada a estructuras metálicas, maquinaria y procesos de fabricación eficientes.",
+    "alpine": "Inspección de soldadura no destructiva (VT, PT, UT) para asegurar la integridad estructural y la calidad de tus procesos.",
+    "tailwind": "Aplicación profesional de soldadura en procesos SMAW, GMAW y TIG sobre acero al carbón e inoxidable.",
+    "localization": "Servicios adaptados a tus necesidades específicas en el sector metal-mecánico, con enfoque en precisión y cumplimiento normativo.",
+    "light_dark_mode": "Fabricación de estructuras metálicas a medida para proyectos industriales, arquitectónicos y comerciales.",
+    "giscus": "Maquila en corte, pailería y soldadura con personal altamente capacitado y equipo especializado.",
+    "decapcms": "Pailería de precisión en acero al carbón e inoxidable, adaptada a diseños técnicos y estructurales.",
+    "rss": "Documentación y planos técnicos para seguimiento de proyectos de ingeniería y manufactura.",
+    "articlegenerator": "Automatización de procesos y generación de reportes técnicos para inspecciones y control de calidad"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes sobre nuestros servicios"
+  },
+  "newsletter": {
+    "title": "Suscríbete a nuestro boletín",
+    "subtitle": "Recibe noticias y actualizaciones de SIMEEX",
+    "input_placeholder": "Ingresa tu correo electrónico",
+    "button_text": "Suscribirme",
+    "privacy": "Nos comprometemos a proteger tus datos. Consulta nuestra",
+    "privacy_link": "Política de Privacidad."
+  },
+  "blog": {
+    "prev": "Anterior",
+    "next": "Siguiente"
+  }
+}

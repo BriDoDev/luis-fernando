@@ -4,7 +4,7 @@ logo_url: /logo.svg
 
 backend:
     name: "github"
-    repo: zankhq/astros
+    repo: zankhq/simeex
     branch: main
     base_url: https://cms.majestico.workers.dev
     automatic_deployments: false
@@ -14,8 +14,8 @@ public_folder: "/images"
 
 i18n:
     structure: "multiple_folders"
-    locales: ["en", "it"]
-    default_locale: "en"
+    locales: ["en", "it", "es"]
+    default_locale: "es"
 
 collections:
     - name: "posts"
