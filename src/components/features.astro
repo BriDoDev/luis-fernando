@@ -1,101 +1,153 @@
 ---
-import Link from "@components/ui/link.astro";
-import { localizePath } from "astro-i18next";
-// @ts-ignore
-import { Icon } from "astro-icon/components";
 import { t } from "i18next";
+import Link from "./ui/link.astro";
 
 const features = [
-	{
-		title: "Astro",
-		description: "features.astro",
-		icon: "bx:bxs-briefcase",
-		url: "https://astro.build/",
-	},
-	{
-		title: "Alpine",
-		description: "features.alpine",
-		icon: "bx:bxs-window-alt",
-		url: "https://alpinejs.dev/",
-	},
-	{
-		title: "Tailwind",
-		description: "features.tailwind",
-		icon: "bx:bxs-data",
-		url: "https://tailwindcss.com/",
-	},
-	{
-		title: "Localization",
-		description: "features.localization",
-		icon: "bx:bxs-bot",
-		url: "https://github.com/yassinedoghri/astro-i18next",
-	},
-	{
-		title: "Light/Dark Mode",
-		description: "features.light_dark_mode",
-		icon: "bx:bxs-file-find",
-		url: "https://tailwindcss.com/docs/dark-mode",
-	},
-	{
-		title: "Giscus",
-		description: "features.giscus",
-		icon: "bx:bxs-user",
-		url: "https://giscus.app/",
-	},
-	{
-		title: "Decap CMS",
-		description: "features.decapcms",
-		icon: "bx:bxs-user",
-		url: "https://decapcms.org/",
-	},
-	{
-		title: "RSS feed",
-		description: "features.rss",
-		icon: "bx:bxs-user",
-		url: "/rss.xml",
-	},
-	{
-		title: "Article generator (soon)",
-		description: "features.articlegenerator",
-		icon: "bx:bxs-user",
-		url: "#",
-	},
+  {
+    title: "Sector metal-mecánico",
+    description: "features.metal_mechanic",
+    img: "/images/f_1.jpg",
+  },
+  {
+    title: "Ingeniería industrial",
+    description: "features.engineering",
+    img: "/images/f_2.jpg",
+  },
+  {
+    title: "Inspección de soldadura",
+    description: "features.welding_inspection",
+    img: "/images/f_3.jpg",
+  },
+  {
+    title: "Aplicación de soldadura",
+    description: "features.welding_application",
+    img: "/images/f_7.jpg",
+  },
+  {
+    title: "Estructura metálica",
+    description: "features.metal_structure",
+    img: "/images/f_5.jpg",
+  },
+  {
+    title: "Corte y soldadura",
+    description: "features.cutting_and_welding",
+    img: "/images/f_6.jpg",
+  },
+  {
+    title: "Pailería especializada",
+    description: "features.paileria",
+    img: "/images/f_4.jpg",
+  },
 ];
 ---
 
-<div class="relative mx-auto max-w-5xl px-6 lg:px-8">
-	<div class="mx-auto max-w-2xl lg:text-center">
-		<h2 class="text-base font-semibold leading-7 text-black dark:text-white">{t("features.title")}</h2>
-		<p class="mt-2 text-3xl font-bold tracking-tight text-black dark:text-white sm:text-4xl">{t("features.subtitle")}</p>
-		<p class="mt-6 text-lg leading-8 text-gray-900 dark:text-gray-100">
-			{t("features.description")}
-		</p>
-	</div>
-	<div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-		<dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-			{
-				features.map((item) => (
-					<div class="flex flex-col">
-						<dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-black dark:text-white">
-							<div class="h-5 w-5 flex-none text-black dark:text-white">
-								<Icon name={item.icon} />
-							</div>
-							{item.title}
-						</dt>
-						<dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-900 dark:text-gray-100">
-							<p class="flex-auto">{t(item.description)}</p>
-							<p class="mt-6">
-								<Link href={item.url} style="muted" size="xs" class="leading-6 text-left text-black dark:text-white">
-									{t("features.learn_more")}{" "}
-									<span class="pl-1 text-black dark:text-white" aria-hidden="true">
-										→
-									</span>
-								</Link>
-							</p>
-						</dd>
-					</div>
-				))
-			}
-		</dl>
-	</div>
+<div class="relative mx-auto max-w-7xl px-6 lg:px-8">
+  <div class="mx-auto max-w-2xl flex flex-col gap-8 text-center py-12">
+    <p
+      class="text-3xl font-bold tracking-tight text-black dark:text-white sm:text-4xl"
+    >
+      {t("features.title")}
+    </p>
+    <p
+      class="text-base sm:text-lg leading-8 text-gray-800 dark:text-gray-100 max-w-2xl text-center"
+    >
+      En <strong class="text-[#0a5ba5] font-semibold">SIMEEX</strong> ofrecemos soluciones
+      especializadas en el sector <strong class="font-semibold"
+        >metal-mecánico</strong
+      >: desde <strong class="font-semibold text-[#0a5ba5]">ingeniería</strong> hasta
+      <strong class="font-semibold text-[#0a5ba5]"
+        >soldadura e inspección</strong
+      >, garantizando <strong class="font-semibold">precisión</strong> y <strong
+        class="font-semibold">calidad</strong
+      > en cada proyecto.
+    </p>
+    <Link href="#whats" class="md:px-3 md:py-2 leading-6">
+      {t("header.primary_button_text")}
+    </Link>
+  </div>
+
+  <!-- Carousel for mobile -->
+  <div class="block lg:hidden mt-12 overflow-x-auto pb-4">
+    <div class="flex gap-12 w-max">
+      {
+        features.map((item) => (
+          <div class="w-80 flex-shrink-0 bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+            <img
+              src={item.img}
+              alt={item.title}
+              class="w-full h-48 object-cover object-center"
+            />
+            <div class="p-4 text-center">
+              <h3 class="text-lg font-semibold text-black dark:text-white">
+                {item.title}
+              </h3>
+              <p class="mt-2 text-sm text-gray-700 dark:text-gray-200">
+                {t(item.description)}
+                <p class="mt-6">
+                  <Link
+                    href="#whats"
+                    style="muted"
+                    size="xs"
+                    class="leading-6 text-left text-black dark:text-white"
+                  >
+                    {t("features.learn_more")}{" "}
+                    <span
+                      class="pl-1 text-black dark:text-white"
+                      aria-hidden="true"
+                    >
+                      →
+                    </span>
+                  </Link>
+                </p>
+              </p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+
+  <!-- Alternating layout for tablet and up -->
+  <div class="hidden lg:flex flex-col gap-16 mt-20">
+    {
+      features.map((item, index) => (
+        <div
+          class={`flex flex-col md:flex-row ${index % 2 === 0 ? "" : "md:flex-row-reverse"} items-center gap-12 shadow-xl rounded-md bg-white`}
+        >
+          <div class="w-full md:w-1/2 h-72">
+            <img
+              src={item.img}
+              alt={item.title}
+              loading="lazy"
+              class="w-full h-full object-cover object-center rounded-md shadow-md"
+            />
+          </div>
+          <div class="w-full md:w-1/2 p-12">
+            <h3 class="text-xl font-bold text-black dark:text-white mb-2">
+              {item.title}
+            </h3>
+            <p class="text-base text-gray-900 dark:text-gray-100">
+              {t(item.description)}
+              <p class="mt-6">
+                <Link
+                  href="#whats"
+                  style="muted"
+                  size="xs"
+                  class="leading-6 text-left text-black dark:text-white"
+                >
+                  {t("features.learn_more")}{" "}
+                  <span
+                    class="pl-1 text-black dark:text-white"
+                    aria-hidden="true"
+                  >
+                    →
+                  </span>
+                </Link>
+              </p>
+            </p>
+          </div>
+        </div>
+      ))
+    }
+  </div>
 </div>

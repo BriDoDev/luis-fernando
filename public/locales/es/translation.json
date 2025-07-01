@@ -2,9 +2,10 @@
   "hero": {
     "title": "¡Excelencia en ingeniería y soldadura industrial!",
     "subtitle": "SIMEEX: Soluciones integrales en metal-mecánica, estructuras metálicas e inspección de soldaduras con altos estándares de calidad.",
-    "globe_title": "Proyectos industriales seguros, precisos y duraderos con ingeniería especializada",
+    "globe_title": "Proyectos industriales {strong1}, {strong2} y {strong3} con {strong4}",
+    "globe_text": "En SIMEEX ofrecemos soluciones integrales en el sector metal-mecánico, desde la inspección y aplicación de soldaduras especializadas hasta el diseño y fabricación de estructuras metálicas. Nuestro compromiso es garantizar la calidad, seguridad y eficiencia en cada proyecto industrial.",
     "main_button_text": "Ver servicios en GitHub",
-    "secondary_button_text": "Ir a la versión animada"
+    "secondary_button_text": "Contacta con nosotros"
   },
   "hero_animated": {
     "secondary_button_text": "Ir a la versión base"
@@ -22,15 +23,13 @@
     "title": "Servicios",
     "subtitle": "Todo lo que tu proyecto necesita",
     "description": "En SIMEEX ofrecemos soluciones especializadas en el sector metal-mecánico: desde ingeniería hasta soldadura e inspección, garantizando precisión y calidad en cada proyecto.",
-    "astro": "Ingeniería industrial aplicada a estructuras metálicas, maquinaria y procesos de fabricación eficientes.",
-    "alpine": "Inspección de soldadura no destructiva (VT, PT, UT) para asegurar la integridad estructural y la calidad de tus procesos.",
-    "tailwind": "Aplicación profesional de soldadura en procesos SMAW, GMAW y TIG sobre acero al carbón e inoxidable.",
-    "localization": "Servicios adaptados a tus necesidades específicas en el sector metal-mecánico, con enfoque en precisión y cumplimiento normativo.",
-    "light_dark_mode": "Fabricación de estructuras metálicas a medida para proyectos industriales, arquitectónicos y comerciales.",
-    "giscus": "Maquila en corte, pailería y soldadura con personal altamente capacitado y equipo especializado.",
-    "decapcms": "Pailería de precisión en acero al carbón e inoxidable, adaptada a diseños técnicos y estructurales.",
-    "rss": "Documentación y planos técnicos para seguimiento de proyectos de ingeniería y manufactura.",
-    "articlegenerator": "Automatización de procesos y generación de reportes técnicos para inspecciones y control de calidad"
+    "metal_mechanic": "Servicios integrales en metal-mecánica: fabricación, ensamble y ajuste de piezas conforme a planos estructurales e indicaciones de ingeniería.",
+    "engineering": "Soluciones de ingeniería orientadas al diseño y validación estructural, asegurando ensamblajes precisos y de alta calidad para aplicaciones industriales.",
+    "welding_inspection": "Inspección de soldaduras por métodos no destructivos, incluyendo Visual Testing (VT) y Ultrasonido (UT), conforme al código AWS D1.1.",
+    "welding_application": "Aplicación controlada de soldaduras en acero al carbón e inoxidable bajo especificaciones WPS, garantizando calidad y repetibilidad en cada proceso.",
+    "metal_structure": "Maquila de estructuras metálicas perneadas y soldadas con base en planos y especificaciones técnicas para naves industriales y recipientes.",
+    "cutting_and_welding": "Corte y ensamble de piezas mecanizadas para soluciones industriales personalizadas, integrando procesos de soldadura eficientes y seguros.",
+    "paileria": "Servicios de pailería en acero al carbón e inoxidable, enfocados en contenedores, ductos, estructuras y soluciones industriales a medida."
   },
   "faq": {
     "title": "Preguntas frecuentes sobre nuestros servicios"
