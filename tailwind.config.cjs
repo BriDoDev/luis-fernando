@@ -14,7 +14,7 @@ module.exports = {
         },
       },
       animation: {
-        "gradient-slow": "gradient-shift 5s ease infinite",
+        "gradient-slow": "gradient-shift 15s ease infinite",
       },
       backgroundSize: {
         200: "200% 200%",

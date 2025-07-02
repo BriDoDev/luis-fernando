@@ -1,6 +1,7 @@
 ---
 import { t } from "i18next";
 import Link from "./ui/link.astro";
+import { Icon } from "astro-icon/components";
 
 const features = [
   {
@@ -61,14 +62,32 @@ const features = [
         class="font-semibold">calidad</strong
       > en cada proyecto.
     </p>
-    <Link href="#whats" class="md:px-3 md:py-2 leading-6">
-      {t("header.primary_button_text")}
-    </Link>
+    <div class="flex flex-col md:flex-row justify-center gap-4 mt-6">
+      <Link
+        href="https://wa.me/525585701205"
+        style="primary"
+        size="md"
+        class="w-full md:w-1/2 flex items-center justify-center gap-2"
+      >
+        <Icon name="mdi:whatsapp" class="w-5 h-5" />
+        WhatsApp
+      </Link>
+
+      <Link
+        href="tel:5544527433"
+        style="outline"
+        size="md"
+        class="w-full md:w-1/2 flex items-center justify-center gap-2"
+      >
+        <Icon name="mdi:phone" class="w-5 h-5" />
+        Llamar
+      </Link>
+    </div>
   </div>
 
   <!-- Carousel for mobile -->
   <div class="block lg:hidden mt-12 overflow-x-auto pb-4">
-    <div class="flex gap-12 w-max">
+    <div class="flex gap-12 w-max p-4">
       {
         features.map((item) => (
           <div class="w-80 flex-shrink-0 bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
@@ -130,7 +149,7 @@ const features = [
               {t(item.description)}
               <p class="mt-6">
                 <Link
-                  href="#whats"
+                  href="https://wa.me/525585701205"
                   style="muted"
                   size="xs"
                   class="leading-6 text-left text-black dark:text-white"
