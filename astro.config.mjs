@@ -10,7 +10,7 @@ import AstroPWA from "@vite-pwa/astro";
 import icon from "astro-icon";
 
 export default defineConfig({
-  site: "https://simeex.zank.studio",
+  site: "https://simeex.com.mx",
   vite: {
     define: {
       __DATE__: `'${new Date().toISOString()}'`,
@@ -28,22 +28,22 @@ export default defineConfig({
       includeAssets: ["favicon.svg"],
       registerType: "autoUpdate",
       manifest: {
-        name: "Simeex - Starter Template for Astro with Tailwind CSS",
+        name: "SIMEEX: Soluciones integrales en metal-mecánica, estructuras metálicas e inspección de soldaduras con altos estándares de calidad",
         short_name: "Simeex",
         theme_color: "#ffffff",
         icons: [
           {
-            src: "pwa-192x192.png",
+            src: "logo.png",
             sizes: "192x192",
             type: "image/png",
           },
           {
-            src: "pwa-512x512.png",
+            src: "logo.png",
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "pwa-512x512.png",
+            src: "logo.png",
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable",

@@ -31,30 +31,29 @@ const makeTitle = title ? `${title} | Simeex` : "Simeex";
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" href="/logo.png" />
-    <!-- <HeadHrefLangs />
-
-    <ViewTransitions /> -->
+    <!-- <ViewTransitions /> -->
 
     <!-- Global CSS -->
     <link rel="stylesheet" href="/index.css" />
 
-    <!-- <SEO
+    <SEO
       title={makeTitle}
-      description="Simeex is a starter website template for Astro built with TailwindCSS and alpine js."
+      description="SIMEEX: Soluciones integrales en metal-mecánica, estructuras metálicas e inspección de soldaduras con altos estándares de calidad"
       canonical={canonicalURL}
       openGraph={{
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `Simeex - Starter Template for Astro`,
+          title: `SIMEEX: Soluciones integrales en metal-mecánica, estructuras metálicas e inspección de soldaduras con altos estándares de calidad`,
           image: resolvedImageWithDomain,
         },
         image: {
-          alt: "Simeex Homepage Screenshot",
+          alt: "Simeex",
         },
       }}
-    /> -->
-    <!-- {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />} -->
+    />
+    <meta name="robots" content="index, follow" />
+
     <script src="/src/pwa.ts"></script>
   </head>
   <body
