@@ -25,7 +25,7 @@ export default defineConfig({
       mode: "production",
       base: "/",
       scope: "/",
-      includeAssets: ["favicon.svg"],
+      includeAssets: ["logo.png"],
       registerType: "autoUpdate",
       manifest: {
         name: "SIMEEX: Soluciones integrales en metal-mecánica, estructuras metálicas e inspección de soldaduras con altos estándares de calidad",
