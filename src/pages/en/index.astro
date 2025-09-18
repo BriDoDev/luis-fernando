@@ -1,4 +1,5 @@
 ---
+import Clients from "@components/clients.astro";
 import Container from "@components/container.astro";
 import Faq from "@components/faq.astro";
 import Features from "@components/features.astro";
@@ -13,6 +14,7 @@ changeLanguage("en");
 <Layout>
   <Container>
     <Hero dynamic={true} />
+    <Clients />
     <Features />
     <!-- <Faq />
     <Newsletter /> -->
